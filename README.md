@@ -34,7 +34,7 @@ This repository contains helper scripts and configuration files to make setup ea
 ---
 
 ## 🎮 Each Time You Want to Play on LAN
-A IPX server is not strictly necessary, as IPXWrapper makes it possible for computers to communicate to each other directly without a central server, but without one the game unfortunately [lags](https://github.com/solemnwarning/ipxwrapper/issues/14).
+An IPX server (like IPXBox) is not strictly necessary, as IPXWrapper makes it possible for computers to communicate to each other directly without a central server, but without one the game unfortunately [lags](https://github.com/solemnwarning/ipxwrapper/issues/14).
 
 1. **Start the IPX server (host computer only)**  
    - Run `start-ipxbox-server.bat`.  
