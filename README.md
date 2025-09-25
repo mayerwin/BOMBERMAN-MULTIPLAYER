@@ -1,6 +1,6 @@
 # BOMBERMAN-MULTIPLAYER
 
-Play **Atomic Bomberman (1997)** over LAN using DOSBox and IPXWrapper.  
+Play **Atomic Bomberman (1997)** over LAN using IPXBox and IPXWrapper.  
 This repository contains helper scripts and configuration files to make setup easier.
 
 ---
@@ -10,15 +10,20 @@ This repository contains helper scripts and configuration files to make setup ea
 1. **Install Atomic Bomberman**  
    - Use the original CD or an ISO image (example: [archive.org link](https://archive.org/details/Nova_AtomicBombermanUSA)).  
 
-2. **Download this repository**  
+2. **Download this repository (includes IPXWrapper and IPXBox)**  
    - Click the green **Code** button → **Download ZIP**.  
-   - Copy all the files from the `.zip` into your Bomberman install directory.
+   - Copy all the files from the `.zip` into your Bomberman install directory (overwriting existing files).
 
-3. **(Optional) Download the latest version of IPXWrapper**  
+3. **(Optional) Update to the latest version of IPXWrapper**  
    - Get the latest release from here:  
      [IPXWrapper releases](https://github.com/solemnwarning/ipxwrapper/releases)  
      (At the time of writing: `ipxwrapper-0.7.2.zip`).
-   - Copy all the files from the `.zip` into your Bomberman install directory.
+   - Copy all the files from the `.zip` into your Bomberman install directory (overwriting existing files).
+
+4. **(Optional) Update to the latest version of IPXBox**  
+   - Follow the instructions to compile IPXBox from source here:
+     [IPXBox How-To](https://github.com/fragglet/ipxbox/blob/trunk/HOWTO.md) 
+   - Copy the ipxbox.exe file into your Bomberman install directory (overwriting existing files).
 
 5. **(Optional) Change your computer name**  
    - Open `nodename.ini`.  
