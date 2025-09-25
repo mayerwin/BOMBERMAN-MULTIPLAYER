@@ -7,24 +7,20 @@ This repository contains helper scripts and configuration files to make setup ea
 
 ## 🚀 Installation
 
-0. **Download this repository**  
-   - Click the green **Code** button → **Download ZIP**.  
-   - Extract the files into your desired game folder (for example:  
-     `C:\Games\Bomberman`).
-
 1. **Install Atomic Bomberman**  
    - Use the original CD or an ISO image (example: [archive.org link](https://archive.org/details/Nova_AtomicBombermanUSA)).  
-   - Install it in the same folder where you extracted the files from this repository.
 
-2. **Download IPXWrapper**  
+2. **Download this repository**  
+   - Click the green **Code** button → **Download ZIP**.  
+   - Copy all the files from the `.zip` into your Bomberman install directory.
+
+3. **(Optional) Download the latest version of IPXWrapper**  
    - Get the latest release from here:  
      [IPXWrapper releases](https://github.com/solemnwarning/ipxwrapper/releases)  
      (At the time of writing: `ipxwrapper-0.7.2.zip`).
-
-3. **Extract IPXWrapper**  
    - Copy all the files from the `.zip` into your Bomberman install directory.
 
-4. **(Optional) Change your computer name**  
+5. **(Optional) Change your computer name**  
    - Open `nodename.ini`.  
    - Replace `"TNT"` with your preferred name.  
    - Avoid spaces or special characters.  
@@ -33,7 +29,7 @@ This repository contains helper scripts and configuration files to make setup ea
 ---
 
 ## 🎮 Each Time You Want to Play on LAN
-A server IPX server is not strictly necessary, but without it the game unfortunately [lags](https://github.com/solemnwarning/ipxwrapper/issues/14).
+A IPX server is not strictly necessary, as IPXWrapper makes it possible for computers to communicate to each other directly without a central server, but without one the game unfortunately [lags](https://github.com/solemnwarning/ipxwrapper/issues/14).
 
 1. **Start the IPX server (host computer only)**  
    - Run `start-ipxbox-server.bat`.  
